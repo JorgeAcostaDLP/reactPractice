@@ -31,7 +31,6 @@ class NumPicker extends React.Component {
     } else {
       msg = <p>Sorry, you are a loser but definitely try again.</p>;
     }
-
     return (
       <h1>
         Your Number is: {number}, {msg}
@@ -39,5 +38,3 @@ class NumPicker extends React.Component {
     );
   }
 }
-
-ReactDOM.render(<NumPicker />, document.getElementById('root'));
